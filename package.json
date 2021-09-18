@@ -18,6 +18,9 @@
   "alias": {
     "#assets": "./src/assets"
   },
+  "engines" : { 
+    "node" : "==14.17.6" 
+  },
 
   "scripts": {
     "start": "react-scripts start",
