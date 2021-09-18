@@ -1,4 +1,4 @@
-import { Card, Col, Row } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import Ingredients from "../Ingredients/Ingredients";
 import Title from "../shared/Title/Title";
 import {} from './CoffeDetail.scss';

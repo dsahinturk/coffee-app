@@ -1,8 +1,10 @@
-import { Col } from "react-bootstrap";
+import {} from "./Ingredients.scss"
 
-const Ingredients = ({ingredients}) => {
+const Ingredients = ({ ingredients, className }) => {
     return (
-        <Col>{ingredients ? <>Ingredients: {ingredients.join(", ")}</> : ""}</Col>
+        <div className="coffee-detail-ingredients">
+            {ingredients ? <>Ingredients: {ingredients.join(", ")}</> : ""}
+        </div>
     )
 };
 

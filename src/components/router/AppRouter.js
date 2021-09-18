@@ -10,10 +10,10 @@ const AppRouter = () => {
         <Router>
             <div className="App">
                 <Switch>
-                    <Route exact path="/note/:id">
-                        {/* <NoteDetail /> */}
-                    </Route>
                     <Route exact path="/">
+                        <CoffeeContainer></CoffeeContainer>
+                    </Route>
+                    <Route exact path="/:category">
                         <CoffeeContainer></CoffeeContainer>
                     </Route>
                 </Switch>
