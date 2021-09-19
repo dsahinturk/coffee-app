@@ -1,6 +1,6 @@
 {
   "name": "coffee-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -18,10 +18,9 @@
   "alias": {
     "#assets": "./src/assets"
   },
-  "engines" : { 
-    "node" : "==14.17.6" 
+  "engines": {
+    "node": "==14.17.6"
   },
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
