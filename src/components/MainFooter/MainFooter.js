@@ -12,9 +12,9 @@ const Footer = () => {
                 </h3>
             </Row>
             <Row>
-                <ul class="social-network social-circle">
-                    <li><a target="_blank" rel="noreferrer" href={githubUrl} class="github-icon" title="Github"><i class="fa fa-github"></i></a></li>
-                    <li><a target="_blank" rel="noreferrer" href={linkedinUrl} class="linkedin-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                <ul className="social-network social-circle">
+                    <li><a target="_blank" rel="noreferrer" href={githubUrl} className="github-icon" title="Github"><i className="fa fa-github"></i></a></li>
+                    <li><a target="_blank" rel="noreferrer" href={linkedinUrl} className="linkedin-icon" title="Linkedin"><i className="fa fa-linkedin"></i></a></li>
                 </ul>
             </Row>
         </div>
