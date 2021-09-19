@@ -13,7 +13,6 @@ const CoffeeList = () => {
     }, [category])
 
     return (
-        
         <Container>
             {!coffees.length > 0 ? <p>Kahve yok</p> : <></>}
             {coffees?.map(coffee => <CoffeeDetail key={`@coffeelist-${coffee.id}`} coffee={coffee}></CoffeeDetail>)}
